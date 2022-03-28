@@ -1,8 +1,8 @@
 @setup
-$server = "writing-readable-php.com";
+$server = "laravel-comments.com";
 $userAndServer = 'forge@'. $server;
-$repository = "spatie/writing-readable-php.com";
-$baseDir = "/home/forge/writing-readable-php.com";
+$repository = "spatie/laravel-comments.com";
+$baseDir = "/home/forge/laravel-comments.com";
 $releasesDir = "{$baseDir}/releases";
 $persistentDir = "{$baseDir}/persistent";
 $currentDir = "{$baseDir}/current";
