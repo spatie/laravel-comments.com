@@ -15,7 +15,7 @@
             
             <p class="text-sm">presents</p>
         </div>
-        <h1 class="col-span-3 text-7xl font-normal uppercase leading-[0.74]">Laravel</h1>
+        <h1 class="col-span-3 text-7xl font-normal uppercase leading-[0.74]">/Laravel</h1>
     </div>
     <div class="col-span-5 inline-grid items-start py-4 grid-cols-5 border-b border-black">
         <h1 class="col-span-3 col-start-2 text-7xl font-bold flex items-end gap-4 uppercase leading-[0.74]">
@@ -58,13 +58,20 @@
     </div>
     
 
-    <div class="container mt-4 mx-auto h-96 bg-white shadow-xl">
+    <div class="container mt-4 flex flex-wrap mx-auto  bg-gray-100 shadow-xl p-4">
+        <div class="flex pb-4 gap-2">
+            <div class="h-3 w-3 rounded-full bg-red-400"></div>
+            <div class="h-3 w-3 rounded-full bg-yellow"></div>
+            <div class="h-3 w-3 rounded-full bg-green-400"></div>
+        </div>
+        <div class="bg-white w-full h-96">
 
+        </div>
     </div>
 
 </section>
-<section class="container mx-auto mt-24">
-    <h1 class="uppercase text-7xl mb-8 py-4 border-t border-black">Why<span class="font-bold"> This Package</span></h1>
+<section class="container mx-auto mt-4 pt-20  border-t border-black">
+    <h1 class="uppercase text-7xl mb-8 py-4">Why<span class="font-bold"> This Package</span></h1>
     <div class="grid grid-cols-5">
         <div class="col-span-1 border  border-black border-r-0 p-4 hover:bg-gray-100 transition">
             <h2 class="font-bold text-xl">Highly Costumizable</h2>

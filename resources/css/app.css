@@ -22,9 +22,13 @@ html {
 }
 
 .pricecard-purple button {
-    @apply text-purple;
-    @apply bg-white;
+    @apply text-white;
+    @apply border border-white;
     
+}
+.pricecard-purple button:hover{
+    @apply bg-white;
+    @apply text-purple
 }
 
 button{
@@ -38,9 +42,15 @@ button{
 }
 
 .pricecard-white button {
-    @apply bg-purple;
-    @apply text-white;
+    @apply border-purple border;
+    @apply text-purple;
     
 }
+
+.pricecard-white button:hover{
+    @apply bg-purple;
+    @apply text-white
+}
+
 
 

@@ -19,7 +19,7 @@
         type="submit"
         name="submit"
         id="submit"
-        class=" px-4 py-2 rounded-sm uppercase text-xs font-bold">
+        class=" button-float transition duration-75 px-4 py-2 rounded-full uppercase text-xs font-bold">
         Buy course now
     </button>
 </a>
