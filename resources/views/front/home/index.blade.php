@@ -132,8 +132,8 @@
 </section>
 <section class="container mx-auto grid grid-cols-1 md:grid-cols-5 border-t border-black p-8 md:p-0">
     <h1 class="col-span-2 uppercase text-5xl  py-4 border-b md:border-b-0 md:border-r border-black">easy<span class="font-bold"> Instalation</span></h1>
-    <div class="col-span-3 p-4 pr-0">
-        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae ut el</p>
+    <div class="col-span-3 md:p-4 md:pr-0">
+        <p class="my-4 md:mt-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae ut el</p>
         <div class="w-full relative">
             <x-code>
 ```bash
@@ -223,7 +223,7 @@ npm install -what
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-20 mt-12">
-            <div class="relative transform rotate-3 hover:rotate-0 transition group px-24">
+            <div class="relative transform rotate-3 hover:rotate-0 transition group px-24 md:px-0">
                 <img src="/images/testing-laravel.jpeg" alt="">
                 <div class="absolute w-full h-full top-0 left-0 p-2 bg-white opacity-0 transition group-hover:opacity-100 ">
                     <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="/">
@@ -234,7 +234,7 @@ npm install -what
                     </a>
                 </div>
             </div>
-            <div class="relative transform -rotate-3 hover:rotate-0 transition group px-24 ">
+            <div class="relative transform -rotate-3 hover:rotate-0 transition group px-24 md:px-0 ">
                 <img  src="/images/ray.jpeg" alt="">
                 <div class="absolute w-full h-full top-0 left-0 p-2 bg-white opacity-0 transition group-hover:opacity-100">
                     <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="/">
@@ -245,7 +245,7 @@ npm install -what
                     </a>
                 </div>
             </div>
-            <div class="relative transform rotate-3 hover:rotate-0 transition group px-24 ">
+            <div class="relative transform rotate-3 hover:rotate-0 transition group px-24 md:px-0 ">
                 <img  src="/images/packagetraining.jpeg" alt="">
                 <div class="absolute w-full h-full top-0 left-0 p-2 bg-white opacity-0 transition group-hover:opacity-100">
                     <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="/">
@@ -256,7 +256,7 @@ npm install -what
                     </a>
                 </div>
             </div>
-            <div class="relative transform -rotate-3 hover:rotate-0 transition group px-24 ">
+            <div class="relative transform -rotate-3 hover:rotate-0 transition group px-24 md:px-0 ">
                 <img  src="/images/media-library.jpeg" alt="">
                 <div class="absolute w-full h-full top-0 left-0 p-2 bg-white opacity-0 transition group-hover:opacity-100">
                     <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="/">
@@ -267,7 +267,7 @@ npm install -what
                     </a>
                 </div>
             </div>
-            <div class="relative transform rotate-3 hover:rotate-0 transition group px-24 ">
+            <div class="relative transform rotate-3 hover:rotate-0 transition group px-24 md:px-0 ">
                 <img  src="/images/event-sourcing.jpeg" alt="">
                 <div class="absolute w-full h-full top-0 left-0 p-2 bg-white opacity-0 transition group-hover:opacity-100">
                     <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="/">
