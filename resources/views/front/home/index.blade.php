@@ -204,23 +204,58 @@ npm install -what
         <div class="grid grid-cols-5 gap-20 mt-12">
             <div class="relative transform rotate-3 hover:rotate-0 transition group ">
                 <img src="/images/testing-laravel.jpeg" alt="">
-                <div class="absolute w-full h-full top-0 left-0  bg-white opacity-0 transition group-hover:opacity-100">
-                    <a class="w-full h-full cursor-pointer text-black" href="/">
-                        <h2>Testing Laravel</h2>
+                <div class="absolute w-full h-full top-0 left-0 p-2 bg-white opacity-0 transition group-hover:opacity-100">
+                    <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="/">
+                        <p class="uppercase mt-4 font-bold text-xs">
+                            visit site
+                        </p>
+                        <div class="w-3 h-3 inline-block border-t border-r border-black"></div>
                     </a>
                 </div>
             </div>
-            <div class="transform -rotate-3">
-                <img  src="/images/event-sourcing.jpeg" alt="">
-            </div>
-            <div class="transform rotate-3">
-                <img  src="/images/media-library.jpeg" alt="">
-            </div>
-            <div class="transform -rotate-3">
-                <img  src="/images/packagetraining.jpeg" alt="">
-            </div>
-            <div class="transform rotate-3">
+            <div class="relative transform -rotate-3 hover:rotate-0 transition group ">
                 <img  src="/images/ray.jpeg" alt="">
+                <div class="absolute w-full h-full top-0 left-0 p-2 bg-white opacity-0 transition group-hover:opacity-100">
+                    <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="/">
+                        <p class="uppercase mt-4 font-bold text-xs">
+                            visit site
+                        </p>
+                        <div class="w-3 h-3 inline-block border-t border-r border-black"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="relative transform rotate-3 hover:rotate-0 transition group ">
+                <img  src="/images/packagetraining.jpeg" alt="">
+                <div class="absolute w-full h-full top-0 left-0 p-2 bg-white opacity-0 transition group-hover:opacity-100">
+                    <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="/">
+                        <p class="uppercase mt-4 font-bold text-xs">
+                            visit site
+                        </p>
+                        <div class="w-3 h-3 inline-block border-t border-r border-black"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="relative transform -rotate-3 hover:rotate-0 transition group ">
+                <img  src="/images/media-library.jpeg" alt="">
+                <div class="absolute w-full h-full top-0 left-0 p-2 bg-white opacity-0 transition group-hover:opacity-100">
+                    <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="/">
+                        <p class="uppercase mt-4 font-bold text-xs">
+                            visit site
+                        </p>
+                        <div class="w-3 h-3 inline-block border-t border-r border-black"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="relative transform rotate-3 hover:rotate-0 transition group ">
+                <img  src="/images/event-sourcing.jpeg" alt="">
+                <div class="absolute w-full h-full top-0 left-0 p-2 bg-white opacity-0 transition group-hover:opacity-100">
+                    <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="/">
+                        <p class="uppercase mt-4 font-bold text-xs">
+                            visit site
+                        </p>
+                        <div class="w-3 h-3 inline-block border-t border-r border-black"></div>
+                    </a>
+                </div>
             </div>
             
         </div>
