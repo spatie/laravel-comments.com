@@ -1,4 +1,4 @@
-<footer class="bg-black py-12">
+<footer class="bg-white py-8">
     <x-layout>
         <nav class="w-full">
             <ul class="flex gap-12 items-center justify-start">
