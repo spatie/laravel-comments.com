@@ -66,7 +66,7 @@
 <section class="container mx-auto mt-24">
     <h1 class="uppercase text-7xl mb-8 py-4 border-t border-black">Why<span class="font-bold"> This Package</span></h1>
     <div class="grid grid-cols-5">
-        <div class="col-span-1 border  border-black border-r-0 p-4">
+        <div class="col-span-1 border  border-black border-r-0 p-4 hover:bg-gray-100 transition">
             <h2 class="font-bold text-xl">Highly Costumizable</h2>
             <p class="">
                 <div class="w-3 h-3 inline-block bg-yellow"></div>
@@ -76,14 +76,14 @@
         <div class="col-span-1 border border-t-0  border-black p-4">
             
         </div>
-        <div class="col-span-1 col-start-3 border  border-black border-l-0 p-4">
+        <div class="col-span-1 col-start-3 border  border-black border-l-0 p-4 hover:bg-gray-100 transition">
             <h2 class="font-bold text-xl">Highly Costumizable</h2>
             <p class="">
                 <div class="w-3 h-3 inline-block bg-red-400"></div>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae ut el
             </p>
         </div>
-        <div class="col-span-1 border border-black border-l-0 border-r-0 p-4">
+        <div class="col-span-1 border border-black border-l-0 border-r-0 p-4 hover:bg-gray-100 transition">
             <h2 class="font-bold text-xl">Highly Costumizable</h2>
             <p class="">
                 <div class="w-3 h-3 inline-block bg-green-400"></div>
@@ -93,14 +93,14 @@
         <div class="col-span-1 border-l border-b  border-black p-4">
             
         </div>
-        <div class="col-span-1 col-start-2 border  border-black border-b-0 border-t-0 p-4">
+        <div class="col-span-1 col-start-2 border  border-black border-b-0 border-t-0 p-4 hover:bg-gray-100 transition">
             <h2 class="font-bold text-xl">Highly Costumizable</h2>
             <p class="">
                 <div class="w-3 h-3 inline-block bg-purple"></div>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae ut el
             </p>
         </div>
-        <div class="col-span-1 col-start-5 border  border-black border-t-0 p-4">
+        <div class="col-span-1 col-start-5 border  border-black border-t-0 p-4 hover:bg-gray-100 transition">
             <h2 class="font-bold text-xl">Highly Costumizable</h2>
             <p class="">
                 <div class="w-3 h-3 inline-block bg-yellow"></div>
@@ -111,7 +111,7 @@
             
         </div>
 
-        <div class="col-span-1 col-start-3 border  border-black border-b-0 border-l-0 p-4">
+        <div class="col-span-1 col-start-3 border  border-black border-b-0 border-l-0 p-4 hover:bg-gray-100 transition">
             <h2 class="font-bold text-xl">Highly Costumizable</h2>
             <p class="">
                 <div class="w-3 h-3 inline-block bg-red-400"></div>
