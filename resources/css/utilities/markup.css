@@ -223,14 +223,10 @@
 .markup-code pre,
 .markup-pre {
     @apply font-mono;
-    @apply my-4;
-    @apply mx-8;
     @apply px-6;
-    @apply py-4;
-    @apply lg:px-12;
-    @apply lg:py-8;
+    @apply py-2;
     @apply overflow-x-auto;
-    @apply bg-gray-50 !important;
+    @apply bg-black !important;
     @apply text-red-500;
     font-size: 0.8em;
     line-height: 1.9;

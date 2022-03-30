@@ -1,16 +1,11 @@
-<div class="text-center relative">
+<div class=" relative p-6">
 
     <div class="">
 
-        <div class=" absolute left-1/2 transform -translate-x-1/2  w-3/5 h-full">
-            <div class="absolute w-full h-full transform -translate-x-2 -translate-y-2 bg-black border border-black"></div>
-            <div class="w-2 h-full transform absolute right-0 -top-1 bg-white border border-black skew-y-[45deg]"></div>
-            <div class="absolute w-full h-full bg-white border border-black"></div>
-            <div class="w-2 h-full transform absolute -left-2 -top-1 bg-white border border-black skew-y-[45deg]"></div>
-        </div>
+
+        <h2 class="uppercase text-xl">Unlimeted <span class="block font-bold">Applications</span></h2>
 
 
-        <p class="w-3/5  p-4 left-1/2 transform -translate-x-1/2">Get the entire course and start writing clean code for just:</p>
 
         @if($couldFetchPrice ?? '')
         @if($discount->active)
@@ -46,17 +41,26 @@
             –
             @endif
         </div>
+        
+        <ul class="my-5">
+            <li class="flex items-center gap-2 ">
+                <div class="w-3 h-3 mb-2 transform translate-y-1 text-sm bg-white"></div>
+                Lorem ipsum dolor 
+            </li>
+            <li class="flex items-center gap-2 ">
+                <div class="w-3 h-3 mb-2 transform translate-y-1 text-sm bg-white"></div>
+                Lorem ipsum dolor 
+            </li>
+            <li class="flex items-start gap-2 ">
+                <div class="w-3 h-3 mb-2 transform translate-y-1 text-sm bg-white"></div>
+                Lorem ipsum dolor ipsum dolor 
+            </li>
+        </ul>
 
-        <div class=" transform translate-y-1/2">
+        <div class="">
             <x-buy-button class="" :url="spatieUrl('https://spatie.be/products/testing-laravel')">Buy course
             </x-buy-button>
         </div>
-
-<div>
-    {{-- TO LAYOUT --}}
-        VAT will be calculated during checkout by Paddle.
-        We support Purchasing Power Parity.
-</div>
 
     </div>
 

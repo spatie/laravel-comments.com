@@ -15,4 +15,32 @@ html {
     font-size: clamp(14px, 1.5vw, 21px);
 }
 
+.pricecard-purple {
+    @apply bg-purple;
+    @apply text-white;
+
+}
+
+.pricecard-purple button {
+    @apply text-purple;
+    @apply bg-white;
+    
+}
+
+button{
+    @apply cursor-pointer;
+}
+
+.pricecard-white {
+    @apply text-black;
+    @apply bg-white;
+    @apply border border-purple;
+}
+
+.pricecard-white button {
+    @apply bg-purple;
+    @apply text-white;
+    
+}
+
 

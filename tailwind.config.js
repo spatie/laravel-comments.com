@@ -50,6 +50,9 @@ module.exports = {
             purple: colors.purple,
             indigo: colors.indigo,
             orange: colors.orange,
+            purple: {
+                'DEFAULT': '#4138C2',
+            },
         },
         extend: {
             minWidth: {

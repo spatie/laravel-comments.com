@@ -10,13 +10,12 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>@yield('title', 'Writing Readable PHP')</title>
+        <title>@yield('title', 'Laravel Comments')</title>
         <meta name="description" content="@yield('description')">
         <link rel="canonical" href="{{ url()->current() }}"/>
 
         <script src="https://kit.fontawesome.com/5a9e7acf39.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800;900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800,500&display=swap" rel="stylesheet">
         <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
         @include('partials.favicon')
@@ -29,7 +28,7 @@
         content="@yield('description')"/>
         <meta name="twitter:image" content="{{ url()->to('/images/og-image.jpg') }}"/>
 
-        <meta property="og:site_name" content="Writing Readeble PHP">
+        <meta property="og:site_name" content="Laravel Comments">
         <meta property="og:locale" content="en_US">
         <meta property="og:url" content="{{ url()->current() }}"/>
         <meta property="og:type" content="product"/>
@@ -44,7 +43,7 @@
         @bukStyles()
         @bukScripts()
     </head>
-    <body class="w-full font-sans text-black">
+    <body class="w-full font-inter">
         @yield('content')
 
         @include('partials.footer')

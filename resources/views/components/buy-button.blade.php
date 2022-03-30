@@ -14,13 +14,12 @@
     </div>
 </a>-->
 
-<a class="ml-2 button-container" href="{{ $url }}">
-    <span class="mas bg-white">Buy course now</span>
+<a class="" href="{{ $url }}">
     <button
         type="submit"
         name="submit"
         id="submit"
-        class="">
+        class=" px-4 py-2 rounded-sm uppercase text-xs font-bold">
         Buy course now
     </button>
 </a>
