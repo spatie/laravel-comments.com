@@ -109,7 +109,7 @@
         </div>
     </div>
 </section>
-<section class="container mx-auto grid grid-cols-5 border-t border-b border-black">
+<section class="container mx-auto grid grid-cols-5 border-t border-black">
     <h1 class="col-span-2 uppercase text-5xl  py-4 border-r border-black">easy<span class="font-bold"> Instalation</span></h1>
     <div class="col-span-3 p-4 pr-0">
         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae ut el</p>
@@ -141,6 +141,7 @@ npm install -what
        
     </div>
 </section>
+{{--
 <section class="grid grid-cols-5 container mx-auto border-b border-black">
     <h1 class="col-span-2 uppercase text-5xl  py-4 border-r border-black">Other<span class="font-bold"> Products</span></h1>
     <div class="col-span-3">
@@ -187,6 +188,45 @@ npm install -what
             </li>
         </ul>
     </div>
+</section>
+
+--}}
+<section class="bg-black py-12">
+    <div class="container mx-auto text-white">
+        <h1 class="text-left uppercase  text-5xl   py-4 ">Other<span class="font-bold"> Products</span></h1>
+        <div class="max-w-md">
+            <p class=" ">
+                <div class="w-3 h-3 inline-block bg-green-400"></div>
+                This package is from the team that already brought you these products and courses
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-5 gap-20 mt-12">
+            <div class="relative transform rotate-3 hover:rotate-0 transition group ">
+                <img src="/images/testing-laravel.jpeg" alt="">
+                <div class="absolute w-full h-full top-0 left-0  bg-white opacity-0 transition group-hover:opacity-100">
+                    <a class="w-full h-full cursor-pointer text-black" href="/">
+                        <h2>Testing Laravel</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="transform -rotate-3">
+                <img  src="/images/event-sourcing.jpeg" alt="">
+            </div>
+            <div class="transform rotate-3">
+                <img  src="/images/media-library.jpeg" alt="">
+            </div>
+            <div class="transform -rotate-3">
+                <img  src="/images/packagetraining.jpeg" alt="">
+            </div>
+            <div class="transform rotate-3">
+                <img  src="/images/ray.jpeg" alt="">
+            </div>
+            
+        </div>
+        
+    </div>
+
 </section>
 <section class="h-screen"></section>
 
