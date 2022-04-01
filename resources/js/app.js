@@ -1,6 +1,5 @@
 import { gsap, Bounce } from "gsap";
 
-console.log(gsap);
 
 gsap.fromTo('#first-comment', {
     opacity: 0,
@@ -46,14 +45,7 @@ let timelineSecondtReaction = gsap.fromTo('#second_reaction', {
     delay: 0.5,
 }).pause();
 
-window.addEventListener('first_typewriter_finished', () => {
-    timelineFirstReaction.play();
-});
-window.addEventListener('second_typewriter_finished', () => {
-    timelineSecondtReaction.play();
-});
-
-// TYPING
+// TYPING FUNCTION
 
 function setupTypewriter(t) {
 
@@ -128,6 +120,15 @@ function setupTypewriter(t) {
         type: type
     };
 }
+
+// TOP ANIMATION 
+window.addEventListener('first_typewriter_finished', () => {
+    timelineFirstReaction.play();
+});
+window.addEventListener('second_typewriter_finished', () => {
+    timelineSecondtReaction.play();
+});
+
 
 const typer1 = document.getElementById('first_typewriter');
 const typer2 = document.getElementById('second_typewriter');

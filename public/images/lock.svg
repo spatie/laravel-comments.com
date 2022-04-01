@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-0103960e-d0de-4e73-9d00-6277cfb70760" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .uuid-9e39a1b1-8aea-4096-95f6-dcdd9aad419f {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 86px;
+      }
+    </style>
+  </defs>
+  <path d="M279.23,442.7V964.24H800.77V442.7H279.23Zm338.63,286.69l21.4,154.68h-198.51l22.43-154.68h0c-14.02-17.12-22.43-39-22.43-62.85,0-54.82,44.44-99.26,99.26-99.26s99.26,44.44,99.26,99.26c0,23.85-8.41,45.73-22.43,62.85h1.03Z"/>
+  <path class="uuid-9e39a1b1-8aea-4096-95f6-dcdd9aad419f" d="M396.96,472.39c0-186.41-40.91-337.52,143.04-337.52,166.36,0,145.9,151.11,145.9,337.52"/>
+</svg>

@@ -11,7 +11,7 @@
         <div class="relative transform rotate-3 hover:rotate-0 transition group px-24 md:px-0">
             <img src="/images/testing-laravel.jpeg" alt="">
             <div class="absolute w-full h-full top-0 left-0 p-2 bg-white opacity-0 transition group-hover:opacity-100 ">
-                <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="/">
+                <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="https://testing-laravel.com/">
                     <p class="uppercase mt-4 font-bold text-xs">
                         visit site
                     </p>
@@ -22,7 +22,7 @@
         <div class="relative transform -rotate-3 hover:rotate-0 transition group px-24 md:px-0 ">
             <img  src="/images/ray.jpeg" alt="">
             <div class="absolute w-full h-full top-0 left-0 p-2 bg-white opacity-0 transition group-hover:opacity-100">
-                <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="/">
+                <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="https://myray.app/">
                     <p class="uppercase mt-4 font-bold text-xs">
                         visit site
                     </p>
@@ -33,7 +33,7 @@
         <div class="relative transform rotate-3 hover:rotate-0 transition group px-24 md:px-0 ">
             <img  src="/images/packagetraining.jpeg" alt="">
             <div class="absolute w-full h-full top-0 left-0 p-2 bg-white opacity-0 transition group-hover:opacity-100">
-                <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="/">
+                <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="https://laravelpackage.training/">
                     <p class="uppercase mt-4 font-bold text-xs">
                         visit site
                     </p>
@@ -44,7 +44,7 @@
         <div class="relative transform -rotate-3 hover:rotate-0 transition group px-24 md:px-0 ">
             <img  src="/images/media-library.jpeg" alt="">
             <div class="absolute w-full h-full top-0 left-0 p-2 bg-white opacity-0 transition group-hover:opacity-100">
-                <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="/">
+                <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="https://medialibrary.pro/">
                     <p class="uppercase mt-4 font-bold text-xs">
                         visit site
                     </p>
@@ -55,7 +55,7 @@
         <div class="relative transform rotate-3 hover:rotate-0 transition group px-24 md:px-0 ">
             <img  src="/images/event-sourcing.jpeg" alt="">
             <div class="absolute w-full h-full top-0 left-0 p-2 bg-white opacity-0 transition group-hover:opacity-100">
-                <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="/">
+                <a class="w-full h-full cursor-pointer flex items-center justify-center text-black" href="https://event-sourcing-laravel.com/">
                     <p class="uppercase mt-4 font-bold text-xs">
                         visit site
                     </p>
@@ -67,3 +67,4 @@
     </div>
     
 </div>
+q
