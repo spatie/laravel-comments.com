@@ -37,12 +37,11 @@
             content="@yield('description')"/>
         <meta property="og:image" content="{{ url()->to('/images/og-image.jpg') }}"/>
 
-        <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.1/dist/simpleParallax.min.js"></script>
 
         @bukStyles()
         @bukScripts()
-        @livewireStyles
+        <livewire:styles />
         <x-comments::styles />
     </head>
     <body class="w-full font-inter">
@@ -54,7 +53,9 @@
 
         <script src=" {{ mix('js/app.js') }}"></script>
 
-        @livewireScripts
+        <livewire:scripts />
         <x-comments::scripts />
+        <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
     </body>
 </html>
