@@ -21,6 +21,16 @@ let timelineSecondComment = gsap.fromTo('#second-comment', {
         typewriter2.type();
     }
 }).pause()
+let timelineThirdComment = gsap.fromTo('#third-comment', {
+    opacity: 0,
+    y: '20px',
+}, {
+    opacity: 1,
+    y: 0,
+    onComplete: () => {
+        typewriter3.type();
+    }
+}).pause()
 
 let timelineFirstReaction = gsap.fromTo('#first_reaction', {
     opacity: 0,
@@ -43,6 +53,19 @@ let timelineSecondtReaction = gsap.fromTo('#second_reaction', {
     scale: 1,
     duration: 0.2,
     delay: 0.5,
+    onComplete: () => {
+        timelineThirdComment.play()
+    }
+}).pause();
+let timelineThirdReaction = gsap.fromTo('#third_reaction', {
+    opacity: 0,
+    scale: 0,
+}, {
+    opacity: 1,
+    scale: 1,
+    duration: 0.2,
+    delay: 0.5,
+ 
 }).pause();
 
 // TYPING FUNCTION
@@ -128,13 +151,18 @@ window.addEventListener('first_typewriter_finished', () => {
 window.addEventListener('second_typewriter_finished', () => {
     timelineSecondtReaction.play();
 });
+window.addEventListener('third_typewriter_finished', () => {
+    timelineThirdReaction.play();
+});
 
 
 const typer1 = document.getElementById('first_typewriter');
 const typer2 = document.getElementById('second_typewriter');
+const typer3 = document.getElementById('third_typewriter');
 
 let typewriter1 = setupTypewriter(typer1);
 let typewriter2 = setupTypewriter(typer2);
+let typewriter3 = setupTypewriter(typer3);
 
 // FLOATING BUTTONS
 const floatingButtons = document.querySelectorAll('.button-float');
