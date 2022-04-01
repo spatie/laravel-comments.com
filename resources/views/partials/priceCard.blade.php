@@ -58,7 +58,7 @@
         </ul>
 
         <div class="">
-            <x-buy-button class="" :url="spatieUrl('https://spatie.be/products/testing-laravel')">Buy course
+            <x-buy-button class=" " :url="spatieUrl('https://spatie.be/products/testing-laravel')">Buy course
             </x-buy-button>
         </div>
 
