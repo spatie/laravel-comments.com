@@ -21,6 +21,7 @@
         "spatie/laravel-comments-livewire": "^0.0.2",
         "spatie/laravel-flash": "^1.9",
         "spatie/laravel-markdown": "^2.2",
+        "spatie/laravel-ray": "^1.29",
         "spatie/laravel-tail": "^4.4",
         "spatie/spatie-price-api": "^1.1"
     },
