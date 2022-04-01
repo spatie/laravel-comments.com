@@ -7,9 +7,7 @@
     <div  class="bg-white w-full p-4 ">
         <div  id="first-comment" class="flex bg-gray-50 p-4 rounded-xs">
 
-            <div class="w-10 h-10 min-w-10  rounded-full mx-3 flex items-center justify-between bg-purple text-white">
-                <p class="text-xl font-medium text-center w-full ">S</p>
-            </div>
+            <img class="w-10 h-10 min-w-10  rounded-full mx-3" src="https://fakeface.rest/thumb/view?minimum_age={{ rand(20,30)}}" alt="random face">
 
 
             <div class=" max-w-full">
@@ -36,9 +34,8 @@
         </div>
         <div id="second-comment" class="flex ml-8 p-4 rounded-xs">
 
-            <div class="w-10 h-10 min-w-10 rounded-full mx-3 flex items-center justify-between bg-purple text-white">
-                <p class="text-xl font-medium text-center w-full ">S</p>
-            </div>
+            <img class="w-10 h-10 min-w-10  rounded-full mx-3" src="https://fakeface.rest/thumb/view?minimum_age={{ rand(20,30)}}" alt="random face">
+
 
             <div class=" max-w-full">
                 <div class="flex items-center font-medium text-base">

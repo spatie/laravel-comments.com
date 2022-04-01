@@ -1,4 +1,4 @@
-<footer class="bg-white py-8 container mx-auto">
+<footer class="bg-white py-8 px-6 sm:px-0 container mx-auto">
         <nav class="w-full">
             <ul class="flex gap-12 items-center justify-start">
                 <li><a class="  flex" href="https://spatie.be">

@@ -1,4 +1,4 @@
-<div class="absolute w-full h-3/4 bg-black top-0 left-0">
+<div class="absolute w-full h-full bg-black top-0 left-0">
 
 </div>
 <div class="container mx-auto">
