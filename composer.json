@@ -4,6 +4,12 @@
     "description": "The Laravel Framework.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://satis.spatie.be"
+        }
+    ],
     "require": {
         "php": "^8.0",
         "blade-ui-kit/blade-ui-kit": "^0.3.3",
@@ -12,6 +18,7 @@
         "laravel/framework": "^9.0",
         "laravel/sanctum": "^2.14",
         "laravel/tinker": "^2.7",
+        "spatie/laravel-comments-livewire": "^0.0.2",
         "spatie/laravel-flash": "^1.9",
         "spatie/laravel-markdown": "^2.2",
         "spatie/laravel-tail": "^4.4",
