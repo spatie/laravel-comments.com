@@ -139,7 +139,6 @@ let typewriter2 = setupTypewriter(typer2);
 const floatingButtons = document.querySelectorAll('.button-float');
 
 for (let button of floatingButtons){
-    console.log(button)
     button.addEventListener('mousemove', (e) => {
         const bntBounds = e.target.getBoundingClientRect();
 

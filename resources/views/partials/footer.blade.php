@@ -1,5 +1,4 @@
-<footer class="bg-white py-8">
-    <x-layout>
+<footer class="bg-white py-8 container mx-auto">
         <nav class="w-full">
             <ul class="flex gap-12 items-center justify-start">
                 <li><a class="  flex" href="https://spatie.be">
@@ -13,5 +12,4 @@
                     --}}
                 </ul>
         </nav>
-    </x-layout>
 </footer>
