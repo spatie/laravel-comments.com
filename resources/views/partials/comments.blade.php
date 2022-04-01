@@ -52,7 +52,7 @@
                 </div>
 
                 <div>
-                    <p id="second_typewriter" class="my-2">Get a comments section up and running in a matter of secconds </p>
+                    <p id="second_typewriter" class="my-2">Get a comments section up and running in a matter of seconds </p>
                 </div>
                 <div class="flex">
                     <div id="second_reaction" class='border border-purple bg-purple/20 rounded-full flex items-center px-2 h-6 text-sm'>

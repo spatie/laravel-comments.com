@@ -5,7 +5,7 @@
     <h1 class="uppercase text-7xl border-b py-4 border-white text-white">De<span class="font-bold">Mo</span></h1>
 </div>
 
-<livewire:comments :model="$post" />
+
 
 <div class="container mt-4 flex flex-wrap mx-auto  bg-gray-100 shadow-xl p-4">
     <div class="flex pb-4 gap-2">
@@ -13,7 +13,7 @@
         <div class="h-3 w-3 rounded-full bg-yellow"></div>
         <div class="h-3 w-3 rounded-full bg-green-400"></div>
     </div>
-    <div class="bg-white w-full h-96">
-
+    <div class="bg-white w-full p-4">
+        <livewire:comments :model="$post" />
     </div>
 </div>
