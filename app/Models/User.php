@@ -7,10 +7,12 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
+use Spatie\Comments\Models\Concerns\InteractsWithComments;
+use Spatie\Comments\Models\Concerns\Interfaces\CanComment;
 
-class User extends Authenticatable
+class User extends Authenticatable implements CanComment
 {
-    use HasApiTokens, HasFactory, Notifiable;
+    use HasApiTokens, HasFactory, Notifiable, InteractsWithComments;
 
     /**
      * The attributes that are mass assignable.

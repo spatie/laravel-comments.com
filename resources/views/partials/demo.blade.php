@@ -5,6 +5,7 @@
     <h1 class="uppercase text-7xl border-b py-4 border-white text-white">De<span class="font-bold">Mo</span></h1>
 </div>
 
+<livewire:comments :model="$post" />
 
 <div class="container mt-4 flex flex-wrap mx-auto  bg-gray-100 shadow-xl p-4">
     <div class="flex pb-4 gap-2">

@@ -37,11 +37,13 @@
             content="@yield('description')"/>
         <meta property="og:image" content="{{ url()->to('/images/og-image.jpg') }}"/>
 
-        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+        <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.1/dist/simpleParallax.min.js"></script>
 
         @bukStyles()
         @bukScripts()
+        @livewireStyles
+        <x-comments::styles />
     </head>
     <body class="w-full font-inter">
         @yield('content')
@@ -49,9 +51,10 @@
         @include('partials.footer')
 
         @include('partials.gtm-body')
-        
+
         <script src=" {{ mix('js/app.js') }}"></script>
 
-
+        @livewireScripts
+        <x-comments::scripts />
     </body>
 </html>
