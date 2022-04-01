@@ -26,19 +26,23 @@
 
     </div>
     <div class="col-span-5 inline-grid items-start py-4 pb-16 sm:pb-32 grid-cols-1 sm:grid-cols-5">
-            <div class="col-start-2 col-span-2">
-                
+            <div class="col-start-2 col-span-3">
+                {{--
                 <p>
                     <div class="w-4 h-4 sm:w-3 sm:h-3 inline-block bg-yellow"></div>
                     <span class="text-2xl sm:text-base">A package for laravel. Get a comments section up an running in no time</span> 
                 </p>
+                --}}
+
+                @include('partials.comments')
                 
             </div>
     </div>
     
+    
 </section>
 <section class="grid grid-cols-1 md:grid-cols-5 container px-8 sm:mx-auto">
-    <div class="sm:col-span-3 sm:col-start-2 grid pb-24 sm:pb-48 sm:grid-cols-2 grid-cols-1">
+    <div class="sm:col-span-3 sm:col-start-2 grid pb-12 sm:pb-48 sm:grid-cols-2 grid-cols-1">
         <div class="pricecard-purple">
             @include('partials.pricecard')
         </div>
@@ -77,7 +81,7 @@
             <h2 class="font-bold text-xl">Highly Costumizable</h2>
             <p class="">
                 <div class="w-3 h-3 inline-block bg-yellow"></div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae ut el
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae ut el. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae ut el. L
             </p>
         </div>
         <div class="col-span-1 hidden sm:block border border-t-0  border-black p-4">
@@ -87,7 +91,7 @@
             <h2 class="font-bold text-xl">Highly Costumizable</h2>
             <p class="">
                 <div class="w-3 h-3 inline-block bg-red-400"></div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae ut el
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae ut el Lorem ipsum dolor sit ame
             </p>
         </div>
         <div class="col-span-1 sm:col-start-2 lg:col-start-4 border border-black sm:border-t-0 sm:border-b-0 lg:border-l-0 lg:border-r-0 lg:border-t lg:border-b p-4 hover:bg-gray-100 transition">
@@ -104,7 +108,7 @@
             <h2 class="font-bold text-xl">Highly Costumizable</h2>
             <p class="">
                 <div class="w-3 h-3 inline-block bg-purple"></div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae ut el
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae ut el Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae ut el.
             </p>
         </div>
         <div class="col-span-1 lg:col-start-5 border  border-black sm:border-r-0 lg:border-t-0 border-b-0  lg:border-r p-4 hover:bg-gray-100 transition">
