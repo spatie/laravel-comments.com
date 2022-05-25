@@ -1,0 +1,21 @@
+/* Override Dracula 😇 */
+
+.shiki [style*="#F8F8F2"] {
+    @apply text-indigo-100 !important;
+}
+
+.shiki [style*="#FF5555"] {
+    @apply text-red-400 !important;
+}
+
+.shiki [style*="#50FA7B"] {
+    @apply text-teal-400 !important;
+}
+
+.shiki [style*="#FF79C6"] {
+    @apply text-indigo-300 !important;
+}
+
+.shiki [style*="#F1FA8C"] {
+    @apply text-yellow-300 !important;
+}

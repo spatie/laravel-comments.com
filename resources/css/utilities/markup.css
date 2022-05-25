@@ -1,0 +1,293 @@
+/* Margins */
+
+.markup h1 {
+    @apply mb-12;
+}
+
+.markup h2 {
+    @apply mt-16;
+    @apply mb-6;
+    @apply first:mt-0;
+}
+
+.markup h3 {
+    @apply mt-16;
+    @apply mb-6;
+    @apply first:mt-0;
+}
+
+.markup p {
+    @apply leading-relaxed;
+}
+
+.markup p,
+.markup ol,
+.markup ul,
+.markup ul {
+    @apply mb-6;
+}
+
+.markup p + ul {
+    @apply -mt-6;
+}
+
+.markup li ul {
+    @apply mb-0;
+}
+
+.markup blockquote {
+    @apply mx-0;
+    @apply my-6;
+    @apply px-12;
+    @apply py-4;
+    @apply border-l-4;
+    @apply leading-loose;
+    @apply text-black;
+    @apply text-opacity-75;
+}
+
+.markup blockquote p {
+    @apply leading-loose;
+    @apply my-4;
+}
+
+/* Header styles */
+
+.markup h1,
+.markup-h1 {
+    @apply text-5xl;
+    @apply uppercase;
+    @apply tracking-wider;
+    @apply leading-tight;
+    @apply font-bold;
+}
+
+.markup h1 strong,
+.markup-h1 strong {
+    @apply font-black;
+}
+
+.markup h2,
+.markup-h2 {
+    @apply text-3xl;
+    @apply font-black;
+    @apply tracking-wide;
+    @apply leading-tight;
+}
+
+.markup h3,
+.markup-h3 {
+    @apply text-xl;
+    @apply font-semibold;
+    @apply uppercase;
+    @apply tracking-wider;
+    @apply leading-snug;
+}
+
+.markup h4,
+.markup-h4 {
+    @apply uppercase;
+    @apply tracking-wider;
+    @apply text-xs;
+    @apply leading-tight;
+}
+
+.markup strong {
+    @apply font-semibold;
+}
+
+.markup hr,
+.markup-hr {
+    @apply my-16;
+    @apply border-t-2;
+    @apply border-gray-200;
+}
+
+.markup body-lg,
+.markup-body-lg {
+    @apply text-xl;
+}
+
+.markup-subtitle{
+    @apply text-base;
+    @apply text-blue-500;
+}
+
+.markup body-xl,
+.markup-body-xl {
+    @apply text-2xl;
+}
+
+/* List styles */
+
+.markup-lists ul > li,
+.markup-ul > li,
+.markup-ul-alt > li {
+    @apply pl-[1.15em];
+}
+
+.markup-lists ul > li:before,
+.markup-ul > li:before {
+    content: "•";
+    font-weight: 900;
+    @apply absolute;
+    @apply left-0;
+    @apply text-indigo-500;
+    @apply text-[1.5em];
+}
+
+.markup-ol-reset {
+    counter-reset: customOl;
+}
+
+.markup-lists ol > li,
+.markup-ol > li {
+    counter-increment: customOl;
+    @apply pl-8;
+}
+
+.markup-lists ol > li:before,
+.markup-ol > li:before {
+    @apply absolute;
+    @apply left-0;
+    content: counter(customOl, decimal-leading-zero) '.';
+    @apply font-semibold;
+    @apply text-red-900;
+}
+
+.markup-lists-spaced ol,
+.markup-lists-spaced ul {
+    @apply grid;
+    @apply gap-1;
+}
+
+/* Link styles */
+
+.markup-links a,
+.markup-link {
+    @apply underline
+}
+
+.markup-links-hover a,
+.markup-link-hover {
+    @apply underline;
+}
+
+.markup-links-hover a:hover,
+.markup-link-hover:hover,
+.markup-links .group:hover a,
+.group:hover .markup-link,
+.group:hover .markup-link-hover,
+.markup-links a:hover,
+.markup-link:hover {
+    @apply underline;
+    @apply text-red-500;
+    @apply transition;
+}
+
+.markup-links .markup-anchor {
+    background-image: none;
+    @apply text-red-500;
+    @apply opacity-0;
+    @apply absolute;
+    @apply right-full;
+    @apply mr-1;
+    @apply text-base;
+}
+
+.markup-links [id]:hover > h2 > .markup-anchor,
+.markup-links h2[id]:hover > .markup-anchor,
+.markup-links [id]:hover > h3 > .markup-anchor {
+    @apply opacity-50;
+}
+
+
+/* Code styles */
+
+.markup-code code {
+    @apply font-mono;
+    @apply bg-black/5;
+
+}
+
+.markup-code {
+    @apply my-8;
+}
+
+.markup-code pre code,
+.markup-pre code {
+    background: transparent;
+}
+
+.markup-code pre,
+.markup-pre {
+    @apply font-mono;
+    @apply px-6;
+    @apply py-2;
+    @apply overflow-x-auto;
+    @apply bg-black/30 !important;
+    @apply text-white/90;
+    font-size: 0.85em;
+    line-height: 1.9;
+}
+
+.markup-code pre::-webkit-scrollbar,
+.markup-pre::-webkit-scrollbar { height: 1px;width: 1px; }
+
+.markup-code pre::-webkit-scrollbar-track,
+.markup-pre::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.markup-code pre::-webkit-scrollbar-thumb,
+.markup-pre::-webkit-scrollbar-thumb {
+    background-image: none;
+    @apply bg-gray-400;
+    @apply bg-opacity-25;
+}
+
+.markup-code :not(pre) > code {
+    font-size: 0.95em;
+    @apply p-1;
+}
+
+/* Table styles */
+
+.markup-table table {
+    @apply border-collapse;
+    @apply border-t;
+    @apply border-b;
+    @apply w-full;
+    @apply text-sm;
+    @apply my-6;
+}
+
+.markup-table table thead tr {
+    @apply border-b;
+    font-size: 0.875em;
+}
+
+.markup-table table th,
+.markup-table table td {
+    @apply py-2;
+    @apply px-1;
+    @apply sm:px-2;
+}
+
+.markup-table table th {
+    @apply text-left;
+    @apply font-normal;
+    @apply tracking-wider;
+    @apply uppercase;
+    @apply text-xs;
+}
+
+.markup-table table tbody tr {
+    @apply border-t;
+}
+
+.markup-table table thead .th-numeric,
+.markup-table table tbody .td-numeric {
+    @apply text-right;
+    font-variant-numeric: tabular-nums;
+}

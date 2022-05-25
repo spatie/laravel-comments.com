@@ -1,0 +1,22 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "./utilities/browser.css";
+@import "./utilities/dummy.css";
+@import "./utilities/markup.css";
+@import "./utilities/mask.css";
+@import "./utilities/shiki-tweaks.css";
+
+@layer base {
+    * {
+        position: relative;
+    }
+    
+    html {
+        /* See https://www.sarasoueidan.com/blog/safari-fluid-typography-bug-fix/ */
+        -webkit-marquee-increment: 1vw;
+        font-size: 18px;
+        font-size: clamp(14px, 1.5vw, 21px);
+    }
+}
