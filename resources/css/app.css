@@ -6,7 +6,6 @@
 @import "./utilities/dummy.css";
 @import "./utilities/markup.css";
 @import "./utilities/mask.css";
-@import "./utilities/shiki-tweaks.css";
 
 @layer base {
     * {

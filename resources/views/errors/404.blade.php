@@ -9,7 +9,7 @@
         <div class="text-2xl">
             <p>Aaaw… we couldn't find this page.
                 <br/>
-            Let's start from scratch and get you back on track.
+            Let's get you back to the homepage so you can leave a bad review there 😅.
             </p>
             <div class="mt-6">
                 <x-button url="/">
