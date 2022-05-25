@@ -12,18 +12,17 @@
         </div>
     </div>
 
-    <div x-show="introVideo">
+    <template x-if="introVideo">
         <div style="background-color:rgba(0,0,0,0.85)"
             class="fixed inset-0 p-8 lg:p-16 z-50 fix-z flex flex-col items-center justify-center"
-            @keydown.window.escape="introVideo = false">
+            @keydown.window.escape="introVideo = false"
+            @click="introVideo = false">
             <button class="absolute top-0 right-0 m-6 leading-none text-white text-3xl">×</button>
             <div class="w-full h-64 md:h-96 lg:h-full">
-                <iframe src="https://player.vimeo.com/video/713709403?h=b646ad716a?autoplay=1" width="640" height="360" class="absolute inset-0 w-full h-full"
-                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture" frameborder="0" allowfullscreen @click.away="introVideo = false"></iframe>
-                
-            </div>
-            <div class="bg-black rounded py-2 px-3 text-white text-xs text-center mt-4">
+                <iframe src="https://player.vimeo.com/video/713709403?h=b646ad716a&autoplay=1" width="640" height="360" class="absolute inset-0 w-full h-full"
+                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture" frameborder="0" allowfullscreen>
+                </iframe>
             </div>
         </div>
-    </div>
+    </template>
 </div>
