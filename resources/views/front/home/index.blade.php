@@ -15,7 +15,9 @@
             <livewire:comments hide-notification-options no-comments-text="Comments you submit will only be visible in your session. They will be deleted in an hour." :model="$post" />
         </x-browser>
 
-        <section id="pricecards" class="z-10 mt-24 max-w-md sm:max-w-2xl mx-auto">
+        @include('partials.intro-video')
+
+        <section id="pricecards" class="z-10 mt-12 max-w-md sm:max-w-2xl mx-auto">
             <div class="grid sm:grid-cols-2 sm:items-stretch">
                 <div class="z-30 sm:left-4">
                     <div class="z-20 h-full bg-gradient-to-br from-indigo-50 to-indigo-100 rounded shadow-2xl">
@@ -39,7 +41,7 @@
         We support Purchasing Power Parity.
     </p>
 
-    <section id="features" class="mt-40 mb-16 max-w-4xl mx-auto">
+    <section id="features" class="mt-32 mb-16 max-w-4xl mx-auto">
         <div class="flex flex-col sm:flex-row gap-4 sm:gap-8">
             <h2 class="sm:w-1/2 markup-h2 -top- sm:text-right">
                 <x-square class="w-5 h-5 mx-1"></x-square>
@@ -277,7 +279,7 @@
         </div>
     </section>
 
-    <section id="cta" class="my-32 flex justify-center">
+    <section id="cta" class="my-24 flex justify-center">
         @include('partials.price-card-compact')
     </section>
 

@@ -5,7 +5,7 @@
     <div class="mt-2 markup-h4 font-semibold">from the same team</div>
 </header>
 
-<main class="mt-12 max-w-2xl mx-auto grid sm:grid-cols-2 gap-16 xl:gap-24">
+<main class="mt-12 max-w-2xl mx-auto grid sm:grid-cols-2 gap-8 md:gap-16 xl:gap-x-24">
     <x-related title="Mailcoach" cover="/images/mailcoach.jpg" url="https://mailcoach.app">
         <p>
             Self-hosted email marketing for Laravel
