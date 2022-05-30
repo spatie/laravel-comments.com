@@ -108,14 +108,14 @@
                 </p>
                 <figure class="mt-6">
                     <div class="comments-dropdown flex justify-start">
-                        <div class="relative left-2 comments-dropdown-items shadow-xl">
-                            <button class="text-xs comments-dropdown-item bg-gray-100">
+                        <div class="relative left-2 bg-white p-2 rounded shadow-xl">
+                            <button disabled class="text-xs font-medium w-full px-4 py-2 flex items-center rounded-sm bg-gray-100">
                                 Only when you are participating
                             </button>
-                            <button class="text-xs comments-dropdown-item">
+                            <button disabled class="text-xs font-medium w-full px-4 py-2 flex items-center rounded-sm">
                                 Always
                             </button>
-                            <button class="text-xs comments-dropdown-item">
+                            <button disabled class="text-xs font-medium w-full px-4 py-2 flex items-center rounded-sm">
                                 Never
                             </button>
                         </div>
