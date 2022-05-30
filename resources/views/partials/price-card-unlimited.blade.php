@@ -26,7 +26,7 @@
 
         <div class="markup-h2">
             @if($couldFetchPrice ?? '')
-                {{ $priceWithoutDiscountUnlimited->formattedPrice() }}
+                {{ $priceUnlimited->formattedPrice() }}
             @else
                 –
             @endif
