@@ -1,9 +1,3 @@
-import Alpine from 'alpinejs'
-
-window.Alpine = Alpine
-
-Alpine.start()
-
 const underlay = document.getElementById('browser-underlay');
 const browser = document.getElementById('browser');
 const browserContentBlock = document.getElementById('browser-content-block');

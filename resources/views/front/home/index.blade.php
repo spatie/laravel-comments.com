@@ -12,7 +12,11 @@
         </section>
 
         <x-browser class="max-w-4xl mx-auto">
-            <livewire:comments hide-notification-options no-comments-text="Comments you submit will only be visible in your session. They will be deleted in an hour." :model="$post" />
+            <livewire:comments
+                hide-notification-options
+                no-comments-text="Comments you submit will only be visible in your session. They will be deleted in an hour."
+                :model="$post"
+            />
         </x-browser>
 
         @include('partials.intro-video')
@@ -49,7 +53,7 @@
             </h2>
 
             <p class="sm:w-1/2 markup-p">
-                Laravel Comments contains a drop-in Livewire component that allows you to add comments to any Laravel app in no time.                
+                Laravel Comments contains a drop-in Livewire component that allows you to add comments to any Laravel app in no time.
                 <br>
                 It's your application, so there is no third-party involved.
             </p>
@@ -194,8 +198,8 @@
 
             <div class="sm:w-1/2">
                 <p class="markup-p">
-                    To prevent unwanted comments from being displayed, you can turn on the optional approval flow. 
-                    Admins will be mailed and can also approve comments inline. 
+                    To prevent unwanted comments from being displayed, you can turn on the optional approval flow.
+                    Admins will be mailed and can also approve comments inline.
                     Using code, you have fine-grained control over <a class="markup-link" href="https://spatie.be/docs/laravel-comments/v1/basic-usage/approving-comments#content-determining-if-a-comment-should-be-automatically-approved">which comments</a> need to be approved.
                 </p>
 
@@ -224,7 +228,7 @@
             </h2>
 
             <p class="sm:w-1/2 markup-p">
-                We've made it easy to customise any aspects of the package. 
+                We've made it easy to customise any aspects of the package.
                 <br>
                 You want a flat discussion or nested comments?
                 Need some extra behaviour? Just hook into an event fired by Laravel Comments. Need to change the looks? Publish the views and make any change you want.
@@ -236,7 +240,7 @@
 
         <div class="mt-24 sm:mt-32 flex flex-col sm:flex-row-reverse gap-4 sm:gap-8">
             <h2 class="sm:w-1/2 markup-h2">
-                Build <x-circle class="w-6 h-6 mx-1"></x-circle> 
+                Build <x-circle class="w-6 h-6 mx-1"></x-circle>
                 <br>
                 your own UI
             </h2>

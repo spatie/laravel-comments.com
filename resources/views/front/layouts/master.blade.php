@@ -40,15 +40,12 @@
         @bukStyles()
         @bukScripts()
 
-        <livewire:styles />
         <x-comments::styles />
     </head>
     <body class="w-full font-sans leading-normal text-indigo-900">
         @yield('content')
 
         {{-- @include('partials.gtm-body') --}}
-        <livewire:scripts />
-        <x-comments::scripts />
         <script src="{{ mix('js/app.js') }}" defer></script>
     </body>
 </html>
