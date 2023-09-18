@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7137f25deca44e0a7f046d9155b4762b",
+    "content-hash": "94fe202d1b9cbf55fa4d6fc74a7d1094",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4007,17 +4007,17 @@
         },
         {
             "name": "spatie/laravel-comments-livewire",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:spatie/laravel-comments-livewire.git",
-                "reference": "f0aa824425e3a13971609c7ba2910a9acc7315c9"
+                "reference": "1ccb4d6fcbd2c558cb2248caef39cc7013f88113"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.spatie.be/dist/spatie/laravel-comments-livewire/spatie-laravel-comments-livewire-f0aa824425e3a13971609c7ba2910a9acc7315c9-zip-6626c1.zip",
-                "reference": "f0aa824425e3a13971609c7ba2910a9acc7315c9",
-                "shasum": "81ada2b36c0b53a492b0593e9d26735fa74dc9cb"
+                "url": "https://satis.spatie.be/dist/spatie/laravel-comments-livewire/spatie-laravel-comments-livewire-1ccb4d6fcbd2c558cb2248caef39cc7013f88113-zip-20ec39.zip",
+                "reference": "1ccb4d6fcbd2c558cb2248caef39cc7013f88113",
+                "shasum": "c2f877550d86d13f98d360c77594fede28c519f7"
             },
             "require": {
                 "illuminate/contracts": "^9.23|^10.0",
@@ -4087,7 +4087,7 @@
                 "spatie"
             ],
             "support": {
-                "source": "https://github.com/spatie/laravel-comments-livewire/tree/2.0.0"
+                "source": "https://github.com/spatie/laravel-comments-livewire/tree/2.0.1"
             },
             "funding": [
                 {
@@ -4095,7 +4095,7 @@
                     "url": "https://github.com/spatie"
                 }
             ],
-            "time": "2023-09-18T11:56:54+00:00"
+            "time": "2023-09-18T12:31:30+00:00"
         },
         {
             "name": "spatie/laravel-flash",
