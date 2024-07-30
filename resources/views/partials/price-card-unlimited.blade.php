@@ -15,6 +15,9 @@
         <li>
             Use in <span class="font-semibold">all your applications</span>
         </li>
+        <li> 
+            May be built into a SaaS product
+        </li>
     </ul>
 
     <section class="my-6 flex flex-col items-start">
