@@ -90,7 +90,7 @@ composer install --prefer-dist --no-scripts --no-dev -q -o;
 @task('runNpm', ['on' => 'remote'])
 {{ logMessage("📦  Running npm…") }}
 cd {{ $newReleaseDir }};
-npm
+npm install
 @endtask
 
 @task('generateAssets', ['on' => 'remote'])
