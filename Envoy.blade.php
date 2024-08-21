@@ -21,7 +21,7 @@ return "echo '\033[32m" .$message. "\033[0m';\n";
 startDeployment
 cloneRepository
 runComposer
-runYarn
+runNpm
 generateAssets
 updateSymlinks
 optimizeInstallation
@@ -87,17 +87,16 @@ ln -nfs {{ $baseDir }}/auth.json auth.json;
 composer install --prefer-dist --no-scripts --no-dev -q -o;
 @endtask
 
-@task('runYarn', ['on' => 'remote'])
-{{ logMessage("📦  Running Yarn…") }}
+@task('runNpm', ['on' => 'remote'])
+{{ logMessage("📦  Running npm…") }}
 cd {{ $newReleaseDir }};
-yarn config set ignore-engines true
-yarn
+npm
 @endtask
 
 @task('generateAssets', ['on' => 'remote'])
 {{ logMessage("🌅  Generating assets…") }}
 cd {{ $newReleaseDir }};
-yarn run production
+npm run build
 rm -rf node_modules
 @endtask
 
