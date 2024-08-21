@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca1d25be69bbfe51b97a4f2ddee12014",
+    "content-hash": "b8b85cb16cf4dadafa5ad1ab846c3b8b",
     "packages": [
         {
             "name": "blade-ui-kit/blade-ui-kit",
@@ -3938,17 +3938,17 @@
         },
         {
             "name": "spatie/laravel-comments",
-            "version": "1.7.3",
+            "version": "v2.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:spatie/laravel-comments.git",
-                "reference": "703b025cfcddfbf0e2f584538fc31d3d4525d503"
+                "reference": "72bee96edee9f412c1a9f977c9ef14e0675492ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.spatie.be/dist/spatie/laravel-comments/spatie-laravel-comments-703b025cfcddfbf0e2f584538fc31d3d4525d503-zip-9f6880.zip",
-                "reference": "703b025cfcddfbf0e2f584538fc31d3d4525d503",
-                "shasum": "aa9e8cf435c1be4265096e88201a96774dfc3c15"
+                "url": "https://satis.spatie.be/dist/spatie/laravel-comments/spatie-laravel-comments-72bee96edee9f412c1a9f977c9ef14e0675492ad-zip-0506a7.zip",
+                "reference": "72bee96edee9f412c1a9f977c9ef14e0675492ad",
+                "shasum": "d063b07da70b6ec1f08f62dbd41a4484ef894828"
             },
             "require": {
                 "illuminate/contracts": "^10.0|^11.0",
@@ -3958,17 +3958,17 @@
                 "symfony/html-sanitizer": "^6.1"
             },
             "require-dev": {
-                "larastan/larastan": "^2.0",
-                "nunomaduro/collision": "^6.0|^7.0",
+                "larastan/larastan": "^2.9",
+                "nunomaduro/collision": "^6.0|^7.0|^8.0",
                 "orchestra/testbench": "^7.0|^8.0|^9.0",
-                "pestphp/pest": "^2.21",
-                "pestphp/pest-plugin-laravel": "^2.0",
-                "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan-deprecation-rules": "^1.0",
-                "phpstan/phpstan-phpunit": "^1.0",
-                "spatie/laravel-markdown": "^2.1",
-                "spatie/laravel-ray": "^1.26",
-                "spatie/pest-plugin-snapshots": "^2.0"
+                "pestphp/pest": "^2.34",
+                "pestphp/pest-plugin-laravel": "^2.4",
+                "phpstan/extension-installer": "^1.4",
+                "phpstan/phpstan-deprecation-rules": "^1.2",
+                "phpstan/phpstan-phpunit": "^1.4",
+                "spatie/laravel-markdown": "^2.5",
+                "spatie/laravel-ray": "^1.37",
+                "spatie/pest-plugin-snapshots": "^2.1"
             },
             "suggest": {
                 "spatie/laravel-markdown": "Required to convert markdown to HTML"
@@ -4024,7 +4024,7 @@
                 "spatie"
             ],
             "support": {
-                "source": "https://github.com/spatie/laravel-comments/tree/1.7.3",
+                "source": "https://github.com/spatie/laravel-comments/tree/v2",
                 "issues": "https://github.com/spatie/laravel-comments/issues"
             },
             "funding": [
@@ -4033,27 +4033,27 @@
                     "url": "https://github.com/spatie"
                 }
             ],
-            "time": "2024-05-08T07:39:59+00:00"
+            "time": "2024-08-12T12:15:46+00:00"
         },
         {
             "name": "spatie/laravel-comments-livewire",
-            "version": "2.1.2",
+            "version": "v3.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:spatie/laravel-comments-livewire.git",
-                "reference": "ebf8ca9b635705993760e343efa22032370d44b1"
+                "reference": "c50d6f9c1019cde9d8c3d43f38c7c2bb4d052aa6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.spatie.be/dist/spatie/laravel-comments-livewire/spatie-laravel-comments-livewire-ebf8ca9b635705993760e343efa22032370d44b1-zip-adc382.zip",
-                "reference": "ebf8ca9b635705993760e343efa22032370d44b1",
-                "shasum": "2559503f4cc64b2436a4514793615cb9a5da06b6"
+                "url": "https://satis.spatie.be/dist/spatie/laravel-comments-livewire/spatie-laravel-comments-livewire-c50d6f9c1019cde9d8c3d43f38c7c2bb4d052aa6-zip-56d5a1.zip",
+                "reference": "c50d6f9c1019cde9d8c3d43f38c7c2bb4d052aa6",
+                "shasum": "9c2caa218d6e8397db2a649b1418956fa8eedc41"
             },
             "require": {
                 "illuminate/contracts": "^10.0|^11.0",
-                "livewire/livewire": "^3.0",
+                "livewire/livewire": "^3.5",
                 "php": "^8.1",
-                "spatie/laravel-comments": "^1.4",
+                "spatie/laravel-comments": "2.x-dev",
                 "spatie/laravel-markdown": "^2.1",
                 "spatie/laravel-package-tools": "^1.10.0"
             },
@@ -4117,7 +4117,7 @@
                 "spatie"
             ],
             "support": {
-                "source": "https://github.com/spatie/laravel-comments-livewire/tree/2.1.2"
+                "source": "https://github.com/spatie/laravel-comments-livewire/tree/v3"
             },
             "funding": [
                 {
@@ -4125,7 +4125,7 @@
                     "url": "https://github.com/spatie"
                 }
             ],
-            "time": "2024-04-29T14:02:47+00:00"
+            "time": "2024-08-13T14:47:54+00:00"
         },
         {
             "name": "spatie/laravel-flash",
@@ -9935,7 +9935,10 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "spatie/laravel-comments": 20,
+        "spatie/laravel-comments-livewire": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

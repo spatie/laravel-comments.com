@@ -40,12 +40,14 @@
         @bukStyles()
         @bukScripts()
 
-        <x-comments::styles />
+        @laravelCommentsLivewireStyles
     </head>
     <body class="w-full font-sans leading-normal text-indigo-900">
         @yield('content')
 
         {{-- @include('partials.gtm-body') --}}
         <script src="{{ mix('js/app.js') }}" defer></script>
+
+        @laravelCommentsLivewireScripts
     </body>
 </html>

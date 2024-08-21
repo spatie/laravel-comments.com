@@ -58,6 +58,7 @@ If you have a question, feel free to [send me a mail](mailto:support@spatie.be).
 Have fun! 👋",
         'text' => "<p>Hi there!</p>
 <p>Feel free to try out this component. The comments you submit will only be visible in your session. And I promise we'll also <a target='_blank' href='https://github.com/spatie/laravel-comments.com/blob/ff05d51cc84946b45d71b51ab06b2914ec8aac50/app/Console/Kernel.php#L13'>delete</a> them from our server after an hour.</p>
+<p><span class='bg-green-500 text-white font-bold p-1 text-xs uppercase rounded-sm'>new</span> Type <code>@</code> to mention someone!</p>
 <p>If you have a question, feel free to <a href=\"mailto:support@spatie.be\">send me a mail</a>.</p>
 <p>Have fun! 👋</p>
 "

@@ -5,6 +5,7 @@ module.exports = {
     important: true,
     mode: 'jit',
     purge: [
+        'app/**/*.php',
         'resources/**/*.blade.php',
         'resources/**/*.js',
     ],
