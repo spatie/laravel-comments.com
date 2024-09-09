@@ -17,7 +17,7 @@
         <link rel="canonical" href="{{ url()->current() }}"/>
 
         <script src="https://kit.fontawesome.com/5a9e7acf39.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500,600,700,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
         <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
         @include('partials.favicon')
