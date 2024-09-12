@@ -43,9 +43,11 @@ class HomeController
 
     protected function createInitialComment(Post $post)
     {
+        $freek = User::firstWhere('email', 'freek@spatie.be');
+
         $comment = new Comment([
             'commentator_type' => User::class,
-            'commentator_id' => User::firstWhere('email', 'freek@spatie.be')->id,
+            'commentator_id' => $freek->id,
             'commentable_type' => Post::class,
             'commentable_id' => $post->id,
             'approved_at' => now(),
@@ -61,10 +63,8 @@ class HomeController
 
         $comment->saveQuietly();
 
-        $freekUser = User::find(2);
-
-        $comment->react('🥳', $freekUser);
-        $comment->react('👍', $freekUser);
-        $comment->react('😍', $freekUser);
+        $comment->react('🥳', $freek);
+        $comment->react('👍', $freek);
+        $comment->react('😍', $freek);
     }
 }
