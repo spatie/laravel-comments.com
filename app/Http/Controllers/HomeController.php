@@ -13,7 +13,7 @@ class HomeController
     public function __invoke(Request $request)
     {
         if (!auth()->check()) {
-            $user = User::find(1);
+            $user = User::firstWhere('email', 'guest@example.com');
 
             auth()->login($user);
         }
@@ -45,23 +45,18 @@ class HomeController
     {
         $comment = new Comment([
             'commentator_type' => User::class,
-            'commentator_id' => 2,
+            'commentator_id' => User::firstWhere('email', 'freek@spatie.be')->id,
             'commentable_type' => Post::class,
             'commentable_id' => $post->id,
             'approved_at' => now(),
-            'original_text' => "Hi there!
-
-Feel free to try out this component. The comments you submit will only be visible in your session. And I promise we'll also delete them from our server after an hour.
-
-If you have a question, feel free to [send me a mail](mailto:support@spatie.be).
-
-Have fun! 👋",
-        'text' => "<p>Hi there!</p>
-<p>Feel free to try out this component. The comments you submit will only be visible in your session. And I promise we'll also <a target='_blank' href='https://github.com/spatie/laravel-comments.com/blob/ff05d51cc84946b45d71b51ab06b2914ec8aac50/app/Console/Kernel.php#L13'>delete</a> them from our server after an hour.</p>
-<p><span class='bg-green-500 text-white font-bold p-1 text-xs uppercase rounded-sm'>new</span> Type <code>@</code> to mention someone!</p>
-<p>If you have a question, feel free to <a href=\"mailto:support@spatie.be\">send me a mail</a>.</p>
-<p>Have fun! 👋</p>
-"
+            'original_text' => '',
+            'text' => <<<HTML
+                <p>Hi there!</p>
+                <p>Feel free to try out this component. The comments you submit will only be visible in your session. And I promise we'll also <a target='_blank' href='https://github.com/spatie/laravel-comments.com/blob/ff05d51cc84946b45d71b51ab06b2914ec8aac50/app/Console/Kernel.php#L13'>delete</a> them from our server after an hour.</p>
+                <p><span class='bg-green-500 text-white font-bold px-1.5 py-1 text-xs uppercase rounded-sm'>new</span> Type <code>@</code> to mention someone!</p>
+                <p>If you have any questions, <a href="mailto:support@spatie.be">shoot an mail</a>.</p>
+                <p>Have fun! 👋</p>
+            HTML,
         ]);
 
         $comment->saveQuietly();
