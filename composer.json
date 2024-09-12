@@ -19,6 +19,7 @@
         "laravel/tinker": "^2.7",
         "spatie/laravel-comments": "v2.x-dev",
         "spatie/laravel-comments-livewire": "v3.x-dev",
+        "spatie/laravel-flare": "^1.0",
         "spatie/laravel-flash": "^1.9",
         "spatie/laravel-markdown": "^2.2",
         "spatie/laravel-ray": "^1.29",
