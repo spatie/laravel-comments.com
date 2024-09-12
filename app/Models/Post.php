@@ -22,7 +22,7 @@ class Post extends Model
 
     public function commentableName(): string
     {
-        return $this->name;
+        return $this->title;
     }
 
     public function commentUrl(): string
