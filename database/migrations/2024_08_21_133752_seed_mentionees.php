@@ -41,6 +41,7 @@ return new class extends Migration {
             User::create([
                 'name' => $mentionee,
                 'email' => Str::kebab($mentionee) . '@example.com',
+                'password' => '',
             ]);
         }
     }
