@@ -15,7 +15,6 @@ return new class extends Migration {
             'Clementine',
             'Craig',
             'Daniel',
-            'Freek',
             'Ian',
             'Jef',
             'Jim',
