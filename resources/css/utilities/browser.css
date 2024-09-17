@@ -1,5 +1,4 @@
 .browser {
-    @apply transform-gpu;
     @apply isolate;
     @apply bg-white;
     @apply rounded-lg;
