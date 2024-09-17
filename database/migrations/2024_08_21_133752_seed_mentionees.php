@@ -2,6 +2,7 @@
 
 use App\Models\User;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Support\Str;
 
 return new class extends Migration {
     public function up(): void
@@ -37,7 +38,7 @@ return new class extends Migration {
         ];
 
         foreach ($mentionees as $mentionee) {
-            User::factory()->create([
+            User::create([
                 'name' => $mentionee,
                 'email' => Str::kebab($mentionee) . '@example.com',
             ]);
