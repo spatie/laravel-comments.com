@@ -1,5 +1,5 @@
 @setup
-$server = "laravel-comments.com";
+$server = "167.71.51.6";
 $userAndServer = 'forge@'. $server;
 $repository = "spatie/laravel-comments.com";
 $baseDir = "/home/forge/laravel-comments.com";
