@@ -26,5 +26,7 @@
         <env name="MAIL_MAILER" value="array"/>
         <env name="QUEUE_CONNECTION" value="sync"/>
         <env name="SESSION_DRIVER" value="array"/>
+        <env name="RAY_ENABLED" value="false"/>
+        <env name="SEND_EXCEPTIONS_TO_RAY" value="false"/>
     </php>
 </phpunit>
