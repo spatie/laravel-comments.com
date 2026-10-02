@@ -37,9 +37,6 @@
         <meta property="og:description" content="@yield('description')"/>
         <meta property="og:image" content="{{ url()->to('/images/og-image.png') }}"/>
 
-        @bukStyles()
-        @bukScripts()
-
         @laravelCommentsLivewireStyles
     </head>
     <body class="w-full font-sans leading-normal text-indigo-900">
