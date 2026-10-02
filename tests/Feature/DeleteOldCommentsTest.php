@@ -2,7 +2,7 @@
 
 use App\Console\Commands\DeleteOldComments;
 use App\Models\Post;
-use Illuminate\Console\Scheduling\Schedule;
+use Illuminate\Support\Facades\Artisan;
 use Spatie\Comments\Models\Comment;
 
 function createPostWithComment(): Post
@@ -34,10 +34,8 @@ it('deletes demo posts and comments older than an hour', function () {
     expect(Comment::first()->commentable_id)->toBe($recentPost->id);
 });
 
-it('is scheduled hourly', function () {
-    $event = collect(app(Schedule::class)->events())
-        ->first(fn ($event) => str_contains($event->command, 'delete-old-comments-and-posts'));
+it('is scheduled once a day so the app can hibernate', function () {
+    Artisan::call('schedule:list');
 
-    expect($event)->not->toBeNull();
-    expect($event->expression)->toBe('0 * * * *');
+    expect(Artisan::output())->toMatch('/0 3 \* \* \*\s+php artisan delete-old-comments-and-posts/');
 });
