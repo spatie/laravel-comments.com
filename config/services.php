@@ -33,11 +33,6 @@ return [
     'spatie_prices_api' => [
         'purchasable_id' => 22,
         'purchasable_id_unlimited' => 24,
-
-    ],
-
-    'mailcoach' => [
-        'subscription_uuid' => env('MAILCOACH_SUBSCRIPTION_UUID')
     ],
 
 ];

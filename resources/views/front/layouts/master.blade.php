@@ -8,8 +8,6 @@
         <link rel="dns-prefetch" href="//use.fontawesome.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
 
-        {{-- @include('partials.gtm-head') --}}
-
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>@yield('title', 'Laravel Comments')</title>
@@ -42,7 +40,6 @@
     <body class="w-full font-sans leading-normal text-indigo-900">
         @yield('content')
 
-        {{-- @include('partials.gtm-body') --}}
         <script src="{{ mix('js/app.js') }}" defer></script>
 
         @laravelCommentsLivewireScripts

@@ -6,13 +6,14 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
-use Laravel\Sanctum\HasApiTokens;
 use Spatie\Comments\Models\Concerns\InteractsWithComments;
 use Spatie\Comments\Models\Concerns\Interfaces\CanComment;
 
 class User extends Authenticatable implements CanComment
 {
-    use HasApiTokens, HasFactory, Notifiable, InteractsWithComments;
+    use HasFactory;
+    use Notifiable;
+    use InteractsWithComments;
 
     /**
      * The attributes that are mass assignable.
