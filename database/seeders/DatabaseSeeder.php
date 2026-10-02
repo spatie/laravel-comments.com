@@ -4,20 +4,19 @@ namespace Database\Seeders;
 
 use App\Models\User;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Str;
 
 class DatabaseSeeder extends Seeder
 {
-    public function run()
+    public function run(): void
     {
-        User::factory()->create([
-            'email' => 'guest@example.com',
-            'name' => 'Guest',
-        ]);
+        User::firstOrCreate(
+            ['email' => 'guest@example.com'],
+            ['name' => 'Guest', 'password' => ''],
+        );
 
-        User::factory()->create([
-            'email' => 'freek@spatie.be',
-            'name' => 'Freek',
-        ]);
+        User::firstOrCreate(
+            ['email' => 'freek@spatie.be'],
+            ['name' => 'Freek', 'password' => ''],
+        );
     }
 }

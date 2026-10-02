@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
@@ -24,7 +25,7 @@ return new class extends Migration
             $table->id();
             $this->nullableMorphs($table, 'commentator', 'commentator_reactions');
             $table->foreignId('comment_id')->references('id')->on('comments')->cascadeOnDelete();
-            $table->string('reaction')->collation('utf8mb4_bin');
+            $table->string('reaction')->collation(DB::getDriverName() === 'sqlite' ? 'binary' : 'utf8mb4_bin');
             $table->timestamps();
         });
 
