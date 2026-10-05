@@ -3884,17 +3884,17 @@
         },
         {
             "name": "spatie/laravel-comments-livewire",
-            "version": "4.2.0",
+            "version": "4.2.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:spatie/laravel-comments-livewire.git",
-                "reference": "59372491638dbb2f119edc70b08a3509ee236b60"
+                "reference": "480c382a56f7ced8a22af20e12e9345a1a44edce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.spatie.be/dist/spatie/laravel-comments-livewire/spatie-laravel-comments-livewire-59372491638dbb2f119edc70b08a3509ee236b60-zip-dc1a63.zip",
-                "reference": "59372491638dbb2f119edc70b08a3509ee236b60",
-                "shasum": "6898a2388a0000ce56ca3ea38676243254f79932"
+                "url": "https://satis.spatie.be/dist/spatie/laravel-comments-livewire/spatie-laravel-comments-livewire-480c382a56f7ced8a22af20e12e9345a1a44edce-zip-5fca01.zip",
+                "reference": "480c382a56f7ced8a22af20e12e9345a1a44edce",
+                "shasum": "a4ec9e2f8119c2472267252e94022e6a50bce3f4"
             },
             "require": {
                 "illuminate/contracts": "^11.0|^12.0|^13.0",
@@ -3961,7 +3961,7 @@
                 "spatie"
             ],
             "support": {
-                "source": "https://github.com/spatie/laravel-comments-livewire/tree/4.2.0"
+                "source": "https://github.com/spatie/laravel-comments-livewire/tree/4.2.1"
             },
             "funding": [
                 {
@@ -3969,7 +3969,7 @@
                     "url": "https://github.com/spatie"
                 }
             ],
-            "time": "2026-07-22T13:58:05+00:00"
+            "time": "2026-10-05T21:51:53+00:00"
         },
         {
             "name": "spatie/laravel-error-share",
