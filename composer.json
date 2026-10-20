@@ -16,7 +16,7 @@
     "require": {
         "php": "^8.5",
         "guzzlehttp/guzzle": "^7.2",
-        "laravel/framework": "^13.0",
+        "laravel/framework": "^13.38.0",
         "laravel/tinker": "^3.0",
         "spatie/laravel-comments": "^2.3.1",
         "spatie/laravel-comments-livewire": "^4.2",
